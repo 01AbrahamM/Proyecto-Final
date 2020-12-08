@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Pago de la Medicina
+		</title>
+		<link rel="stylesheet" href="estilos.css">
+		<link rel="shortcut icon" href="favicon.ico">			
+		<script src="main.js" type="text/javascript"></script>
+
+	</head>
+
+	<body> 
+		<div class="base">
+				<header>
+				<img class="mainimg" src="LogoHead.jpeg">
+				</header>
+			<div class="menu">
+					<a href="index.html">
+						<button class="btn1">Pagina Principal</button>
+					</a>
+					<button class="btn2">Nuetras Redes</button>
+			</div>
+
+			<div>
+				<h1>Realiza tu pedido</h1>
+				<form class="pedido" action="" id="datos">
+					<strong>Nombres </strong>
+					<input type="text" name="name" id="nombre" size="20" placeholder="Ingrese su nombre" >
+					<strong>Edad: </strong>
+					<input type="text" name="age" id="edad" size="20" placeholder="Ingrese su edad">
+  				<br>
+  				<br>
+  					<strong>Cédula</strong>
+  					<input type="text" name="pid" id="cedula" size="30" placeholder="Ingrese su cedula 8-888-888">
+  				<strong>Cantidad :</strong>
+  					<select name="catidad" id="cantidad">
+
+    					<option value="1" selected><i> </i></option>
+   						<option value="1">1</option>
+    					<option value="2">2</option>
+	    				<option value="3">3</option>
+    					<option value="4">4</option>
+    					<option value="5">5</option>   
+
+  					</select>
+
+  					<strong>Sexo:</strong>
+  					<select name="gender" id="sexo">
+
+    					<option value="Genero" selected>Genero</option>
+   						<option value="Masculino">Masculino</option>
+    					<option value="Femenino">Femenino</option>
+	    				  
+
+  					</select>
+  					<br>
+  					<br>
+  					<strong>Medicamento: </strong>
+  					<select name="med" id="vmad">
+
+    					<option value=9.97 selected>Mortin</option>
+   						<option value=15.46>Panadol</option>
+    					<option value=3.24>Tynelon</option>
+	    				  
+
+  					</select>
+  					<br>
+  					<br>
+
+  				    <button type="button" onclick="getData()">Realizar Pedido</button>
+  			</form>
+
+
+  				<div id="impresion" class="carro"></div>
+  				<div id="impresion2" class="carro"></div>
+				
+				<footer class="foot">
+				Abraham Mordock - Derechos Reserbados 2020
+				</footer>
+			</div>
+
+		<script src="main.js" type="text/javascript"></script>
+
+	</body>
+</html>

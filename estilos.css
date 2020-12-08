@@ -1,0 +1,274 @@
+header h1,h2{|
+	display: inline-block;
+	margin-right: 2px;
+}
+h1 {
+  color: #5983ad;
+  font-family: sans-serif;
+  margin-left: 20px;
+  text-align: center;
+}
+body{
+  background-color: #5983ad; 
+}
+
+.mainimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 25%;
+  border-left: 3px solid #5983ad;
+  border-radius: 15%;
+}
+
+.base{
+  width:  99.1% 99.1%;
+  background-color: white; 
+}
+
+
+
+.titulomed{
+	color: #5983ad;
+	text-align: left;
+	font-family: sans-serif;
+	
+}
+
+.tex {
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  }
+
+
+.arti div{
+	border: solid 1px black;
+	display: inline-block;
+	border-radius: 15px;
+	background: #e0e7f7;
+  margin-left: 10%;
+  width: 20%;
+  height: 550px;
+  line-height: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+.arti img{
+  width:90%;
+  order: none;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 11px;
+  
+}
+.arti li{
+  list-style: none;
+  display: inline-block;
+
+}
+
+.tt {
+  font-family: sans-serif;
+  color: #5089c0;
+  margin-left: 15px;
+}
+.tx {
+  font-family: sans-serif;
+  color: black;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.tb{
+  background-color: #da1c10; 
+  border: 1px solid #e0e7f7;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 15px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.menu {  
+  /*border: 1px solid black;*/
+  background-color: #5983ad;  
+  display: inline-block;
+  margin-left: 30%;
+  width: 35%;
+  padding-left: 5%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  }
+
+
+
+
+.line {
+	display: inline-block;
+	text-align: center;
+}
+
+.foto{
+	border: 1px solid black;
+	border-radius: 25px;
+	margin: 10px 30px;
+}
+
+.foot{
+  background-color: #686868;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  padding-top: 3px;
+}
+
+.pedido {
+  margin-left: 80px;
+}
+
+.carro{
+  width: 65%;
+  border: none;
+  margin-left: 50px; 
+}
+
+.carro img {
+  width: 15%;
+  border: 1px solid black;
+  border-radius: 15px
+}
+
+
+/* CSS Botones */
+.btn1 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #5983ad; 
+  color: white;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;  
+  padding: 10px 24px;
+  margin-right: 10px;
+  transition-duration: 0.4s;
+  
+
+}
+.btn1:hover {
+  background-color: white; 
+  color: #5983ad;
+  border: 1px solid #5983ad;
+}
+
+.btn2 {
+  background-color: #5983ad; 
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;  
+  padding: 10px 24px;
+  margin-right: 10px;
+  transition-duration: 0.4s;
+  
+
+}
+.btn2:hover {
+  background-color: white; 
+  color: #5983ad;
+  border: 1px solid #5983ad;
+}
+
+.btn3{
+  background-color: #da1c10; 
+  border: 1px solid #e0e7f7;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 15px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+  transition-duration: 0.4s;
+}
+.btn3:hover {
+  background-color: white; 
+  color: #da1c10;
+  border: 1px solid #da1c10;
+}
+
+.btn4{
+  background-color: #da1c10; 
+  border: 1px solid #e0e7f7;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 15px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+  transition-duration: 0.4s;
+}
+.btn4:hover {
+  background-color: white; 
+  color: #da1c10;
+  border: 1px solid #da1c10;
+}
+
+.btn5{
+  background-color: #da1c10; 
+  border: 1px solid #e0e7f7;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 15px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+  transition-duration: 0.4s;
+}
+.btn5:hover {
+  background-color: white; 
+  color: #da1c10;
+  border: 1px solid #da1c10;
+}
+
+/* Fotter SocialMedia */
+
+.sm{
+
+}
+
+.trns {
+ list-style: none;
+ margin: 10px 30px;
+ display: inline-block;
+ font-size: 20px;
+ padding: 20px 20px;
+ color: #fff;
+ border: 1px solid #fff;
+ border-radius: 50%;
+ transition: .5s ;
+}
+
+.trns:hover{
+
+}
